@@ -1,0 +1,4 @@
+<p>message-list works!</p>
+<div *ngFor="let msg of this.messageService.messages">
+  <app-message [message]="msg"></app-message>
+</div>
